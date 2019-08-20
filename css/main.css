@@ -3,11 +3,9 @@
 /*콘테이너*/
 #container{}
 /*메인*/
-.main_slider{
-    
-}
 
 .main_slider{
+
     position: relative;
 }
 .single-item .main{
@@ -360,7 +358,8 @@
 
 .con6{}                                                                                                                      
 .con6box{
-    margin-bottom: 110px;
+    width: 1100px;
+    margin: 0 auto 110px;
 }
 
 .con6txt{
