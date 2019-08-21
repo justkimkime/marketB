@@ -24,5 +24,22 @@ $(document).ready(function(){
         prevArrow:false,
         nextArrow:false,
     });
+    
+    $(".gnb li a, .lnb_wrap").hover(function(){
+        $(".lnb_wrap").css({
+            "height":"360px",
+            "transition":"height 1s"});
+    },function(){
+        $(".lnb_wrap").css({
+            "height":"0",
+            "transition":"height 1s"}); //호버하고 나서 땠을때
+    })
+    /*$(".lnb_wrap").hide();
+    
+    $(".gnb li a").hover(function(){
+        $(".lnb_wrap:not(:animated)",this).slideDown("fast"); }, 
+    function(){
+        $(".lnb_wrap",this).slideUp("fast"); 
+    });*/
 
 }) 
