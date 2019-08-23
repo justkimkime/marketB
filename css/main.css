@@ -20,7 +20,7 @@
 .main_slider .main3{
     background: url(../images/main3.png) no-repeat center top;
 }
-.main_slider .main4{background: url(../images/main3.png) no-repeat center top;}
+.main_slider .main4{background: url(../images/main4.png) no-repeat center top;}
 .main_slider .main5{background: url(../images/main3.png) no-repeat center top;}
 .main_slider .main6{background: url(../images/main3.png) no-repeat center top;}
 
@@ -208,7 +208,6 @@
     margin-left: 10px;
     background: url(../images/heart_ico.png) no-repeat center center;
 }
-
 .item_box a{
     display: none;
     width: 275px;
@@ -221,6 +220,7 @@
 .item_box:hover a{
     display: block;
 }
+/*new item img*/
 .new_arr .new_img1{
     background: url(../images/new_img1.png) no-repeat;
 } 
@@ -228,10 +228,27 @@
     background: url(../images/new_img2.png) no-repeat;
 }
 .new_arr .new_img3{
-    background: url(../images/new_img3.png) no-repeat;
+    background: url(../images/new_img3.jpg) no-repeat;
+    background-size: 275px 275px;
 } 
 .new_arr .new_img4{
     background: url(../images/new_img4.png) no-repeat;
+}
+.new_arr .new_img5{
+    background: url(../images/new_img5.jpg) no-repeat;
+    background-size:275px 275px;
+} 
+.new_arr .new_img6{
+    background: url(../images/new_img6.jpg) no-repeat;
+    background-size:275px 275px;
+}
+.new_arr .new_img7{
+    background: url(../images/new_img7.jpg) no-repeat;
+    background-size:275px 275px;
+} 
+.new_arr .new_img8{
+    background: url(../images/new_img8.jpg) no-repeat;
+    background-size:275px 275px;
 } 
 .best_itm .best_img1{
     background: url(../images/best_img1.png) no-repeat;
@@ -244,7 +261,24 @@
 } 
 .best_itm .best_img4{
     background: url(../images/best_img4.png) no-repeat;
+}
+.best_itm .best_img5{
+    background: url(../images/best_img5.jpg) no-repeat;
+    background-size:275px 275px;
 } 
+.best_itm .best_img6{
+    background: url(../images/best_img6.jpg) no-repeat;
+    background-size:275px 275px;
+}
+.best_itm .best_img7{
+    background: url(../images/best_img7.jpg) no-repeat;
+    background-size:275px 275px;
+} 
+.best_itm .best_img8{
+    background: url(../images/best_img8.jpg) no-repeat;
+    background-size:275px 275px;
+} 
+
 /*con2,con3*/
 
 /*con4*/
@@ -393,17 +427,19 @@
 }
 
 .more_box{
-    width: 130px;
-    height: 36px;
-    line-height: 36px;
     font-size: 14px;
     font-weight: 600;
     margin-top: 30px;
-    background: url(../images/more_style.png) no-repeat center center;
 }
 
 .more_box a{
-    margin-left: 16px;
+    background: url(../images/more_style.png) no-repeat center center;
+    padding-left: 16px;
+    width: 130px;
+    height: 36px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 36px;
 }
 
 .con6img1{
