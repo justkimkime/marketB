@@ -236,6 +236,9 @@ input{
 .f_support .f_question{
     margin-top: 12px;
 }
+.f_support .f_question a:hover{
+    color: #fff;
+}
 .f_support .f_question li{
     float: left;
     margin-right: 5px
