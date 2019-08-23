@@ -21,8 +21,8 @@
     background: url(../images/main3.png) no-repeat center top;
 }
 .main_slider .main4{background: url(../images/main4.png) no-repeat center top;}
-.main_slider .main5{background: url(../images/main3.png) no-repeat center top;}
-.main_slider .main6{background: url(../images/main3.png) no-repeat center top;}
+.main_slider .main5{background: url(../images/main5.png) no-repeat center top;}
+.main_slider .main6{background: url(../images/main6.png) no-repeat center top;}
 
 .main .view_more{
     width: 210px;
@@ -295,7 +295,6 @@
     width: 360px;
     position: relative;
     padding-top: 54px;
-    cursor: pointer;
     float: left;
 }
 .con4title{
@@ -312,6 +311,7 @@
     margin: 10px 0;
 }
 .con4img{
+    cursor: pointer;
     height: 400px;
     width: 100%;
     background: url(../images/event_img1.png) no-repeat;
